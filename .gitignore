@@ -1,0 +1,43 @@
+# Build results
+bin
+obj
+
+# Visual Studio files
+.vs
+.user
+.suo
+.userosscache
+.sln.docstates
+
+# Rider files (jeśli używasz JetBrains Rider)
+.idea
+
+# Visual Studio Code settings
+.vscode
+
+# NuGet packages
+.nupkg
+packages
+
+# Dotnet publish output
+publish
+
+# Logs
+.log
+
+# Resharper
+_ReSharper
+.DotSettings.user
+
+# Backup files
+~
+.bak
+
+# MacOS
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Temporary files
+.tmp
