@@ -12,8 +12,8 @@ namespace LeetCodeProblems.Algorithms.Problem0002_AddTwoNumbers
         public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {
             ListNode dumbNode = new ListNode();
-            ListNode curr1 = l1;
-            ListNode curr2 = l2;
+            ListNode? curr1 = l1;
+            ListNode? curr2 = l2;
             int next = 0;
             ListNode temp = dumbNode;
             while (curr1 != null || curr2 != null || next > 0)

@@ -45,8 +45,8 @@ namespace LeetCodeProblems.Tests.Algorithms.Problem0002_AddTwoNumbers
         public void AddTwoNumbersTest1(ISolution solution)
         {
             // [2,4,3] + [5,6,4] = [7,0,8]
-            var l1 = CreateList(new[] { 2, 4, 3 });
-            var l2 = CreateList(new[] { 5, 6, 4 });
+            var l1 = CreateList([2, 4, 3]);
+            var l2 = CreateList([5, 6, 4]);
             var expected = new[] { 7, 0, 8 };
 
             var result = solution.AddTwoNumbers(l1, l2);
@@ -59,8 +59,8 @@ namespace LeetCodeProblems.Tests.Algorithms.Problem0002_AddTwoNumbers
         public void AddTwoNumbersTest2(ISolution solution)
         {
             // [0] + [0] = [0]
-            var l1 = CreateList(new[] { 0 });
-            var l2 = CreateList(new[] { 0 });
+            var l1 = CreateList([0]);
+            var l2 = CreateList([0]);
             var expected = new[] { 0 };
 
             var result = solution.AddTwoNumbers(l1, l2);
@@ -74,8 +74,8 @@ namespace LeetCodeProblems.Tests.Algorithms.Problem0002_AddTwoNumbers
         {
 
             // [9,9,9,9,9,9,9] + [9,9,9,9] = [8,9,9,9,0,0,0,1]
-            var l1 = CreateList(new[] { 9, 9, 9, 9, 9, 9, 9 });
-            var l2 = CreateList(new[] { 9, 9, 9, 9 });
+            var l1 = CreateList([9, 9, 9, 9, 9, 9, 9]);
+            var l2 = CreateList([9, 9, 9, 9]);
             var expected = new[] { 8, 9, 9, 9, 0, 0, 0, 1 };
 
             var result = solution.AddTwoNumbers(l1, l2);
