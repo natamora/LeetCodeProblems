@@ -26,4 +26,4 @@ jobs:
         run: dotnet build ./csharp/LeetCodeProblems.sln --no-restore --configuration Release
 
       - name: Run tests
-        run: dotnet test ./csharp/LeetCodeProblems.Tests/LeetCodeProblems.Tests.csproj --no-build --verbosity normal
+        run: dotnet test ./csharp/LeetCodeProblems.Tests/LeetCodeProblems.Tests.csproj --verbosity normal
