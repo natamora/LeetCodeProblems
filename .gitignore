@@ -41,3 +41,5 @@ Thumbs.db
 
 # Temporary files
 .tmp
+
+create_leetcode_problem.sh
