@@ -1,0 +1,2 @@
+| 70. Climbing Stairs | [Easy](https://leetcode.com/problems/easy/) | [C#](./csharp/LeetCodeProblems/Algorithms/Problem007000000000_Easy) | [C#](./csharp/LeetCodeProblems.Tests/Algorithms/Problem007000000000_Easy) | 🟢 Easy |
+| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [C#](./csharp/LeetCodeProblems/Algorithms/Problem0070_ClimbingStairs) | [C#](./csharp/LeetCodeProblems.Tests/Algorithms/Problem0070_ClimbingStairs) | 🟢 Easy |
