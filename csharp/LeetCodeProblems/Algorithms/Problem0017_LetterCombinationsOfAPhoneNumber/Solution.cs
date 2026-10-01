@@ -31,7 +31,7 @@ namespace LeetCodeProblems.Algorithms.Problem0017_LetterCombinationsOfAPhoneNumb
             return result;
         }
 
-        public void Dfs(string digits, int curr, string word, List<string> result)
+        private void Dfs(string digits, int curr, string word, List<string> result)
         {
             if(curr == digits.Length)
             {

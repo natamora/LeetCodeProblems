@@ -2,6 +2,15 @@
 bin
 obj
 
+# --- Java / Maven ---
+**/target/
+*.class
+
+# --- .NET / C# ---
+**/bin/
+**/obj/
+.vs/
+
 # Visual Studio files
 .vs
 .user
@@ -9,8 +18,8 @@ obj
 .userosscache
 .sln.docstates
 
-# Rider files (jeśli używasz JetBrains Rider)
-.idea
+# --- Intellij
+.idea/
 
 # Visual Studio Code settings
 .vscode

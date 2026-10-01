@@ -2,17 +2,24 @@ name: .NET Tests
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, master ]
+    paths:
+      - 'csharp/**'
+      - '.github/workflows/dotnet-ci.yml'
   pull_request:
-    branches: [ main ]
+    branches: [ main, master ]
+    paths:
+      - 'csharp/**'
+      - '.github/workflows/dotnet-ci.yml'
 
 jobs:
-  build:
+  dotnet-tests:
+    name: .NET Tests
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
@@ -27,3 +34,4 @@ jobs:
 
       - name: Run tests
         run: dotnet test ./csharp/LeetCodeProblems.Tests/LeetCodeProblems.Tests.csproj --verbosity normal
+
